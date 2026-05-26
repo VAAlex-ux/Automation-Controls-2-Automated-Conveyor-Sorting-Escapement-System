@@ -88,3 +88,5 @@ BEGIN
             
     ENDCASE;
 END_PROGRAM_BLOCK
+
+** These documents are protected under license. **

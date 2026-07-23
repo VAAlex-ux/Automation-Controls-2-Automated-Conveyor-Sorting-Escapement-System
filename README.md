@@ -28,6 +28,13 @@ Siemens TIA Portal (v15 or higher)
 **Programming Language**
 SCL (Structured Control Language, IEC 61131-3 compliant)
 
+**PE_Sensor_Infeed (Infeed Detection)**
+Proximity photoelectric sensor stationed upstream to register the presence of incoming packages.
+
+**Prox_Cylinder_Retracted (Home Position Verification)** Inductive proximity switch mounted on the rear-end of the pneumatic cylinder body to confirm full retraction.
+
+**Valve_Stopper_Control (Pneumatic Actuator)** A 5/2-way single-solenoid directional control valve managing air distribution to a linear pneumatic cylinder acting as a physical singulation barrier.
+
 
 
 

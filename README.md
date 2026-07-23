@@ -48,4 +48,9 @@ Proximity photoelectric sensor stationed upstream to register the presence of in
 
 **Fault Interlock** The active alarm flags a critical alert to the HMI screen and can be used to interlock upstream feed conveyors to prevent catastrophic line tracking jams.
 
+**D - Schematics**
+
+![Uploading image.png…]()
+
+
 **These documents are protected under author license (Velikov, Aleksandar)**

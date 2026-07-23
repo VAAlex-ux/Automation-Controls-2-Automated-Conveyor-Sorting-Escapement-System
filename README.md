@@ -1,6 +1,6 @@
 **A - Context & Problem Statement**
 
-To address operational bottlenecks on a high-speed packaging conveyor system. The client's existing third-party sequence logic was causing frequent product jams, inconsistent product singulation, and lacked mechanical diagnostics, which resulted in extended downtime when pneumatic components fatigued. The project establishes a standardized control framework for a pneumatic material handling escapement system integrated into a manufacturing conveyor line. The system regulates product flow by detecting incoming packages and utilizing a single-acting pneumatic stopper cylinder to momentarily halt or release items based on adjustable operational parameters.
+To address operational bottlenecks on a high-speed packaging conveyor system. The client's existing third-party sequence logic was causing frequent product jams, inconsistent product singulation, and lacked mechanical diagnostics, which resulted in extended downtime when pneumatic components fatigued. 
 
 **B - Objective**
 

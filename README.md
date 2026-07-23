@@ -38,9 +38,15 @@ Proximity photoelectric sensor stationed upstream to register the presence of in
 
 **Primary Sequence (Interlocking Logic) / Default State (Resting)** The pneumatic stopper cylinder is configured to be normally extended (Blocking Position) to prevent unregulated product bypass during system idleness or power-up.
 
-**Product Detection** When PE_Sensor_Infeed transitions to TRUE (detecting a package), the control valve Valve_Stopper_Control energizes, venting/pressurizing the appropriate cylinder chambers to extend the cylinder forcefully and lock the package in queue.
+**Product Detection** When PE_Sensor_Infeed (1.1A1) transitions to TRUE (detecting a package), the control valve Valve_Stopper_Control (3.1Y1) energizes, venting/pressurizing the appropriate cylinder chambers to extend the cylinder forcefully and lock the package in queue.
 
 **Clearing Transition** When PE_Sensor_Infeed transitions to FALSE (the trail edge of the package clears the optical beam), the control logic triggers the retraction cycle to release the package downstream.
+
+**Retraction Timeout** When a release sequence initiates, the cylinder is commanded to retract. The system monitors the feedback loop from Prox_Cylinder_Retracted (1.1A2).
+
+**Fault Triggers** If Prox_Cylinder_Retracted (1.1A2) fails to transition to TRUE within a predefined structural safety window (e.g., 2.5 seconds), a Cylinder Retraction Timeout Fault (4.1Y2) is latched.
+
+**Fault Interlock** The active alarm flags a critical alert to the HMI screen and can be used to interlock upstream feed conveyors to prevent catastrophic line tracking jams.
 
 
 

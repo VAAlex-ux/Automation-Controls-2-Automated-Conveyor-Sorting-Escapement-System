@@ -6,8 +6,13 @@ To address operational bottlenecks on a high-speed packaging conveyor system. Th
 
 Redesign the control algorithm from scratch using clean-room Structured Control Language (SCL). The target architecture required a modular, timer-controlled escapement sequence capable of direct adjustment via a centralized Siemens HMI, alongside robust fault-handling routines to catch mechanical failures before they caused system pile-ups.
 
+When coupons are processed from Figure A to Figure B the conveyor belt package locking system it has been reported that problems like jamming, delayed cylinder extraction and retraction and delayed response time were continuous. Maintenance team was searching for a better control algorithim solution.
+
 <p align="center">
 <img width="350" height="450" alt="image" src="https://github.com/user-attachments/assets/f38c4940-4946-4a87-ac75-170b4971c9d9" /> <img width="357" height="450" alt="image" src="https://github.com/user-attachments/assets/a67d76ac-11cb-4616-b908-3a806d5125eb" />
+</p>
+<p align="center">
+Fig.A Coupon Unit
 </p>
 
 
@@ -59,14 +64,14 @@ Proximity photoelectric sensor stationed upstream to register the presence of in
 <img width="564" height="203" alt="image" src="https://github.com/user-attachments/assets/a471f7ee-7bca-48de-a2ee-bd0ee69b6696" /> <img width="274" height="350" alt="image" src="https://github.com/user-attachments/assets/a8bd354b-acfc-4350-a61e-ad09f0622eea" />
 </p>
 <p align="center">
-Sensors 1.1A1 / 1.1A2
+Fig.B Sensors 1.1A1 / 1.1A2
 </p>
 
 <p align="center">
 <img width="450" height="350" alt="image" src="https://github.com/user-attachments/assets/fe079851-e950-4386-90b5-ac6ad8ad9a67" /> <img width="550" height="350" alt="image" src="https://github.com/user-attachments/assets/8f64217e-df2f-44f9-a327-11cd9d7d1e8a" />
 </p>
 <p align="center">
-Electrical Connection
+Fig.C Electrical Connection
 </p>
 
 

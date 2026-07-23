@@ -13,6 +13,10 @@ PLC Control Logic (SCL), HMI Monitoring Screens, and Commissioning Documentation
 **Status** 
 Successfully commissioned, debugged, and signed off by the end-client.
 
+* **Control Platform** Programmable Logic Controller (PLC): Siemens SIMATIC S7-1500F (CPU 1511TF-1 PN)
+* **Development Environment** Siemens TIA Portal (v15 or higher)
+* **Programming Language** SCL (Structured Control Language, IEC 61131-3 compliant)
+
 **Context & Problem Statement**
 
 To address operational bottlenecks on a high-speed packaging conveyor system. The client's existing third-party sequence logic was causing frequent product jams, inconsistent product singulation, and lacked mechanical diagnostics, which resulted in extended downtime when pneumatic components fatigued. The project establishes a standardized control framework for a pneumatic material handling escapement system integrated into a manufacturing conveyor line. The system regulates product flow by detecting incoming packages and utilizing a single-acting pneumatic stopper cylinder to momentarily halt or release items based on adjustable operational parameters.
@@ -20,6 +24,8 @@ To address operational bottlenecks on a high-speed packaging conveyor system. Th
 **Objective**
 
 Redesign the control algorithm from scratch using clean-room Structured Control Language (SCL). The target architecture required a modular, timer-controlled escapement sequence capable of direct adjustment via a centralized Siemens HMI, alongside robust fault-handling routines to catch mechanical failures before they caused system pile-ups.
+
+
 
 
 
